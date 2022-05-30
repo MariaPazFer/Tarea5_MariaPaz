@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Biografia Maria</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container flex items-center justify-between h-16 md:h-20">
+            <h1 class="relative z-30 font-semibold text-2xl text-pink-700">Mi Biografia</h1>
+            <div class="flex items-center flex-row-reverse md:flex-row gap-3 md:gap-12">
+                    <ul class="nav-menus translate-y-[-200%] md:translate-y-0 " id="menu">
+                        <a class="nav-link" href="#inicio"> Inicio </a>
+                        <a class="nav-link" href="#about"> Descripcion </a>
+                        <a class="nav-link" href="#formacion"> Formacion </a>
+                        <a class="nav-link" href="#servicios"> Servicios </a>
+                        <a class="nav-link" href="#portfolio"> Proyectos </a>
+                        <a class="nav-link" href="#contact"> Contactame </a>
+                    </ul>
+                    <button id="toggle-menu"class="relative z-30 p-2 md:hidden dark:invert">
+                        <img src="icons/icon-menu.svg"alt="menu">
+                      </button>
+                      <button id="toggle-theme"class="relative z-30 dark:invert">
+                        <img
+                           class="md:opacity-70 w-7 md:-mt-1"
+                           src="icons/icon-dark.svg"
+                           alt="theme"/>
+                      </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="inicio" class="inicio-section ">
+            <div class="order-2 md:order-1 mt-10 ">
+                    <h2 class="text-5xl md:text-7xl font-bold">
+                        Hola
+                    </h2>
+                    <h2 class="text-5xl md:text-7xl font-bold mt-2">
+                        Mi nombre es<span class="text-pink-500"> Maria Aurelia Paz </span>
+                      </h2>
+                      <h3 class="text-2xl md:text-3xl font-bold opacity-70 mt-5 mb-10">
+                        y estudio Ingenieria en Informatica en Ceutec
+                      </h3>
+                      <h4 class="mb-10">
+                          Mis Redes Sociales : 
+                          <div class="flex flex-wrap  gap-5 md:gap-10">
+                            <a href="https://www.facebook.com/" class="contact-link bg-blue-500">
+                                <img src="icons/icon-facebook.svg"alt="facebook">
+                              </a> 
+                              
+                            <a href="https://www.instagram.com/" class="contact-link bg-pink-500">
+                                <img src="icons/icon-instagram.svg"alt="instagram">
+                              </a>  
+                              
+                            <a href="https://web.whatsapp.com/" class="contact-link bg-green-500">
+                                <img src="icons/icon-whatsapp.svg"alt="whatsapp">
+                              </a> 
+                              
+                            <a href="https://www.twitter.com/" class="contact-link bg-blue-400">
+                                <img src="icons/icon-twitter.svg"alt="twitter">
+                              </a>                                                                                             
+                           </div>
+                      </h4>
+                      <a href="#portfolio" class="btn-primary">
+                          Mira mis proyectos
+                      </a>
+            </div>
+
+            <div class="container-hero-image">
+                <img
+                class="w-full h-full object-cover opacity-90 object-center"
+                src="icons/woman-dev.jpeg"
+                alt="profile">
+            </div>
+        </section>
+
+
+        <section id="about"class="py-32">
+          
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+              <div class="rounded-full w-48 md:w-64 h-48 md:h-64 overflow-hidden bg-pink">
+                 <img
+                   class="w-full h-full object-cover opacity-90"
+                   src="icons/woman-dev.jpeg"
+                   alt="profile"
+                                    />
+               </div>
+               <div class="w-full md:w-1/2 text-base md:text-lg text-center md:text-left">
+                <h2 class="text-pink-500 font-bld text-2xl md:text-3xl mb-3">
+                  Hola soy Maria Aurelia Paz
+                </h2>
+                <p class="mb-3 opacity-80">
+                  Tengo 25 años, vivo en Santa Barbara, mi numero telefonico es: +504 9823-2312, mi correo electronico
+                  es: mariapaz@hotmail.com
+                </p>
+                <p class="opacity-80">
+                  Mis principales habilidades son el backend en el desarrollo de aplicaciones web, el trabajo en equipo se me da bien y
+                  tambien el apoyo moral junto al liderazgo son cualidades de mi fundamentales.
+                </p>
+              </div>
+            </div>
+        </section>
+        
+        <section id="formacion"class="pt-32">
+            <h2 class="portfolio-heading">
+              Mi Formacion
+            </h2>
+
+            <ul class="w-full gap-24 py-5 grid grid-cols-1 md:grid-cols-3">
+               
+                <li class="portfolio-card">
+                    <div class="w-full md:w-full h-full">
+                        <img
+                           class="h-full w-full object-cover"
+                           src="/formacion.png"
+                           alt="portfolio">
+                      </div>
+                      <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                           Año 2015
+                        </h2>
+                        <p class="text-center">Tome cursos de Html y css, curse muchas clases en la universidad y obtuve mi primer empleo en
+                            una empresa en un puesto administrativo, obtuve mucha experiencia en esa area.
+                        </p>
+                      </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="w-full md:w-full h-full">
+                        <img
+                           class="h-full w-full object-cover"
+                           src="/formacion.png"
+                           alt="portfolio">
+                      </div>
+                      <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                           Año 2019
+                        </h2>
+                        <p class="text-center">Tome un curso de javascript y de java con programacion orientada a objetos, en muchas clases de la U
+                            pedian esos temas, gracias a ello logre ascender de puesto en la empresa a uno de informatica.
+                        </p>
+                      </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="w-full md:w-full h-full">
+                        <img
+                           class="h-full w-full object-cover"
+                           src="/formacion.png"
+                           alt="portfolio">
+                      </div>
+                      <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                           Año 2021
+                        </h2>
+                        <p class="text-center">Hoy en dia estoy tomando cursos de react, ya casi me graduo
+                            de la universidad y he mejorado mucho a mi empresa creando sistemas web.
+                        </p>
+                      </div>
+                </li>
+              </ul>
+          </section>
+
+        <div class="mt-32 text-center" id="servicios">
+            <h2 class="text-pink-500 text-3xl md:text-5xl font-bold mb-14">
+              Mis Servicios
+            </h2>
+            <div class="flex flex-wrap text-sm md:text-4xl items-center justify-center gap-24 md:gap-12">
+                <div class="skill" data-text="5 años de Experiencia en HTML">
+                    <img class="w-16" src="./skills/html.png" alt="html">
+                  </div>
+                  <div class="skill" data-text="5 años de Experiencia en CSS">
+                    <img class="w-16" src="./skills/css.png" alt="css">
+                  </div>
+                  <div class="skill" data-text="2 años de Experiencia en JS">
+                    <img class="w-16" src="./skills/javascript.png" alt="javascript">
+                  </div>
+                  <div class="skill" data-text="Aprendiendo React actualmente">
+                    <img class="w-16" src="./skills/reactjs.png" alt="react">
+                  </div>
+            </div>
+          </div>
+
+          <section id="portfolio"class="pt-32">
+            <h2 class="portfolio-heading">
+              Mis Proyectos
+            </h2>
+
+            <ul class="w-full gap-24 py-5 grid grid-cols-1 md:grid-cols-3">
+               
+                <li class="portfolio-card">
+                    <div class="w-full md:w-full h-full">
+                        <img
+                           class="h-full w-full object-cover"
+                           src="/project.png"
+                           alt="portfolio">
+                      </div>
+                      <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                           Proyecto 1
+                        </h2>
+                        <p class="text-center">Este fue mi primer proyecto en la carrera de ingenieria, es un proyecto meticuloso donde se aplica conceptos
+                            de programacion orientada a objetos en el lenguaje de Java, desde ese proyecto mi logica ha ido creciendo.
+                        </p>
+                      </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="w-full md:w-full h-full">
+                        <img
+                           class="h-full w-full object-cover"
+                           src="/project.png"
+                           alt="portfolio">
+                      </div>
+                      <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                           Proyecto 2
+                        </h2>
+                        <p class="text-center">Mi 2do proyecto fue para la empresa donde trabajo, ocupaban un sistema para la facturacion y con los conocimientos
+                            adquiridos en la universidad y mi autoaprendizaje logre crearles un eficiente sistema de escritorio.
+                        </p>
+                      </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="w-full md:w-full h-full">
+                        <img
+                           class="h-full w-full object-cover"
+                           src="/project.png"
+                           alt="portfolio">
+                      </div>
+                      <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                           Proyecto 3
+                        </h2>
+                        <p>En mi ultimo y mas reciente proyecto, estoy trabajando en hacer una aplicacion web usando las tecnologia de MERN STACK, para 
+                            la clase de Vanguardia en la universidad, la aplicacion web consiste en un blog para personas.
+                        </p>
+                      </div>
+                </li>
+              </ul>
+          </section>
+    </main>
+    <footer class="w-full text-center mt-40 bg-white dark:bg-primary-gray">
+      
+        <section id="contact" class="flex flex-col gap-12 justify-center items-center py-20">
+           <h2 class="text-4xl md:text-5xl font-bold text-pink-500">
+              Contactame
+           </h2>
+           <div class="flex flex-wrap justify-center gap-5 md:gap-10">
+            <a href="https://www.facebook.com/" class="contact-link bg-blue-500">
+                <img src="icons/icon-facebook.svg"alt="facebook">
+              </a> 
+              
+            <a href="https://www.instagram.com/" class="contact-link bg-pink-500">
+                <img src="icons/icon-instagram.svg"alt="instagram">
+              </a>  
+              
+            <a href="https://web.whatsapp.com/" class="contact-link bg-green-500">
+                <img src="icons/icon-whatsapp.svg"alt="whatsapp">
+              </a> 
+              
+            <a href="https://www.twitter.com/" class="contact-link bg-blue-400">
+                <img src="icons/icon-twitter.svg"alt="twitter">
+              </a>                                                                                             
+           </div>
+                                                                                                        
+        
+        </section>
+
+        <h3 class="pb-10">
+            &copy;Copyright 2022 - Maria Aurelia Paz
+          </h3>
+      </footer>
+
+</body>
+<script src="./main.js">
+</script>
+</html>
